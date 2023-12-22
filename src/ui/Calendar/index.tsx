@@ -22,7 +22,7 @@ const CalendarDate = ({
     handleNextMonth,
     setDateFirst,
     setDateSecond,
-  } = useCalendar(ransomDate,endDate);
+  } = useCalendar();
   return (
     <div>
       <div className={style.datePicker}>
