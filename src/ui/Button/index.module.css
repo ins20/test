@@ -1,0 +1,30 @@
+.button {
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contained {
+  background-color: var(--main-green-color);
+  color: white;
+  padding: 14.5px 24px;
+}
+.outlined {
+  border: 1px solid var(--main-green-color);
+  color: var(--main-green-color);
+  padding: 14.5px 24px;
+}
+.grey {
+  color: var(--main-gray-color);
+}
+.green {
+  color: var(--main-green-color);
+  font-weight: 400;
+}

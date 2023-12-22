@@ -1,0 +1,37 @@
+.navTab {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.large {
+  padding: 10.5px 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main-dark-grey-color);
+}
+.small {
+  padding: 14px 56.5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main-dark-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+.navTabs {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  border-bottom: 1px solid var(--main-grey-color);
+}
+
+.green {
+  color: var(--main-black-color);
+  /* box-shadow: 0px 1px 0px 0px var(--main-green-color); */
+  box-shadow: 0 2px 1px -1px var(--main-green-color);
+}
+
+.blue {
+  color: var(--main-blue-color);
+  box-shadow: 0px 1px 0px 0px var(--main-blue-color);
+}

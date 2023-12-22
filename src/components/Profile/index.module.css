@@ -1,0 +1,36 @@
+.form {
+  width: 912px;
+  height: 264px;
+  border-radius: 4px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(145, 144, 166, 0.12);
+}
+.fieldset {
+  border: none;
+}
+.legend {
+  color: var(--main-black-color);
+  font-size: 16px;
+  font-weight: 700;
+}
+.formFields {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 24px;
+}
+.info {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0%;
+}
+@media (max-width: 1024px) {
+  .info {
+    position: relative;
+  }
+  .form {
+    padding: 15px !important;
+  }
+}

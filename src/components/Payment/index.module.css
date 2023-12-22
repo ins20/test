@@ -1,0 +1,35 @@
+.title {
+  color: var(--main-black-color);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.subtitle {
+  color: var(--main-dark-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.fieldset {
+  border: none;
+}
+.legend {
+  color: var(--main-dark-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.total {
+  color: var(--main-blue-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
